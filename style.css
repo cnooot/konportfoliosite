@@ -1,0 +1,142 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    color: #ebdbb2;
+    background-color: #1b1b1b;
+    line-height: 1.5;
+    font-size: 16px;
+    margin: auto;
+    max-width: 1000px
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.nav{
+    
+}
+
+.nav a{
+    font-size: 44px;
+    color: #98971a;
+
+}
+
+.subtitle a{
+    font-size: 24px;
+}
+
+.subtitle {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.faicons{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.faicons img{
+    padding: 0;
+    margin-top: .8rem;
+    width: 24px;
+
+}
+
+.navbar{
+    padding-top: .4rem;
+    display: flex;
+    border-top: 1px solid #ebdbb2;
+    gap: 3rem;
+    justify-content: end;
+}
+
+.navchild{
+    display: flex;
+    gap: 1.37rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: .3rem;
+    padding: .3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar a{
+    color: #ebdbb2;
+    text-decoration: none;
+    opacity: .2;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover{
+    opacity: 1;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr  ;
+    gap: 16px;
+    margin-top: 3.55rem;
+    font-size: 17px;
+}
+
+.boutme{
+    
+    height: 280px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: .4rem;
+    border: 1px solid #4f5150;
+
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 3;
+}
+
+
+.stack{
+    display: flex;
+    padding-bottom: 8px;
+    border-radius: .4rem;
+    background-color: rgba(0, 0, 0, .2);
+    max-height: 125px;
+    border: 1px solid #4f5150;
+
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+.coding{
+    display: flex;
+    padding-bottom: 8px;
+    border-radius: .4rem;
+    background-color: rgba(0, 0, 0, .2);
+    min-height: 125px;
+    justify-content: center;
+    margin: auto;
+    min-width: 250px;
+    border: 1px solid #4f5150;
+
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+}
+
+.coding span{
+    display: flex;
+    margin: auto;
+}

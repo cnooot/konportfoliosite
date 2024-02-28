@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a>Konrad Mott Personal Site</a>
+        </div>
+        <div class="subtitle">
+            <div>
+                <a><span class="auto-type"></span></a>
+            </div>
+            <div class="faicons">
+                <a href="">
+                    <img src="assets/github.svg" alt="github icon">
+                </a>
+                <a href="">
+                    <img src="assets/linkedin.svg" alt="linkedin icon">
+                </a>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="navchild">
+                <a href="">About me</a>
+                <a href="">Stack</a>
+                <a href="">My projects</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div class="about">
+        <div class="boutme">
+            <p>Lorem ipsum, 
+            dolor sit amet consectetur adipisicing elit. 
+            Nihil, fugiat vel, sunt voluptate accusamus commodi 
+            excepturi a quam architecto ullam tempora ducimus velit 
+            illum odio repellendus consequuntur dolores aliquam corporis.</p>
+        </div>
+            <div class="stack">
+                <ul>
+                    <li>C Bare-Metal</li>
+                    <li>RTOS</li>
+                    <li>Python</li>
+                    <li>JAVA</li>
+                </ul>
+            </div>
+            <div class="coding">
+                <span class="inprog"></span>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Lorem, ipsum dolor sit amet consectetur adipisicing elit."],
+            typeSpeed: 35,
+            backSpeed: 35,
+            loop: false,
+        })
+
+        var typed = new Typed(".inprog", {
+            strings: ["Loading..."],
+            typeSpeed: 70,
+            backSpeed: 35,
+            loop: true,
+            showCursor: false,
+
+        })
+    </script>
+</body>
+</html>
